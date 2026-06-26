@@ -1,0 +1,201 @@
+Project Name: Novella
+
+Slogan:
+Where Stories Find Readers
+
+Secondary Tagline:
+Read. Imagine. Explore.
+
+Tech Stack:
+- React
+- Vite
+- React Router
+- React Icons
+- CSS only
+- Context API
+- Local Storage
+
+Design Style:
+- Premium modern bookstore
+- Forest Green (#355C4B)
+- Warm Cream (#F8F5F0)
+- Soft Gold (#D4A45A)
+- Playfair Display headings
+- Inter body text
+- Rounded corners
+- Soft shadows
+- Smooth animations
+- Fully responsive
+- Full-width layout
+
+Book Categories:
+- Cookbooks
+- Fiction (Romance, Mystery, Thriller, Fantasy)
+- Non-Fiction (Self-Help, Business, Health, Finance)
+- Children (Storybooks, Activity Books, Picture Books, Coloring Books)
+- Comics (Webtoons, Manga)
+- Magazines (Fashion, Travel, Tech)
+
+Completed Features:
+- Navbar
+- Footer
+- Layout Component
+- Home Page
+- Shop Page
+- Book Details Page
+- Shopping Cart
+- Checkout Page
+- WhatsApp Order Flow
+
+Important:
+Do not redesign existing pages.
+Reuse existing components.
+Follow the existing design system.
+Keep code modular and professional.
+
+=================================================
+PHASE 1: COMPLETE CHECKOUT & ORDER FLOW
+=================================================
+
+Ensure the checkout process is fully functional.
+
+Requirements:
+- Delivery Information Form
+- Payment Method Selection
+  • M-Pesa
+  • Credit/Debit Card
+  • Cash on Delivery
+- Form Validation
+- Dynamic Order Summary
+- Order Number Generation
+- Clear Cart After Order
+
+Create an Order Confirmation Page displaying:
+- Success Icon
+- Order Number
+- Customer Information
+- Delivery Information
+- Order Summary
+- Continue Shopping Button
+
+WhatsApp Integration:
+- Generate a complete order message
+- Open WhatsApp using wa.me
+- Store WhatsApp number in a configuration file
+- Prefill customer details, books ordered, quantities, payment method and total amount
+
+=================================================
+PHASE 2: ABOUT PAGE
+=================================================
+
+Create a professional About Page.
+
+Sections:
+- Brand Story
+- Mission
+- Vision
+- Why Choose Novella
+- Statistics Section
+  • Books Available
+  • Happy Readers
+  • Categories
+- Call To Action
+
+Use elegant bookstore imagery and animations.
+
+=================================================
+PHASE 3: CONTACT PAGE
+=================================================
+
+Create a Contact Page.
+
+Include:
+- Contact Form
+- Name
+- Email
+- Subject
+- Message
+
+Contact Information:
+- Email
+- Phone
+- WhatsApp
+- Location
+
+Embed a placeholder map section.
+
+Add validation and success feedback.
+
+=================================================
+
+PHASE 4: DARK MODE
+=================================================
+
+Implement complete Dark Mode.
+
+Requirements:
+- Toggle in Navbar
+- Persist Preference in Local Storage
+- Dark Theme Variables
+- Smooth Theme Transitions
+- Fully Responsive
+
+=================================================
+PHASE 5: LOADING STATES
+=================================================
+
+Create Loading Skeleton Components.
+
+For:
+- Home Page
+- Shop Page
+- Book Details Page
+- Cart Page
+
+Use modern shimmer animations.
+
+=================================================
+PHASE 6: ADVANCED UI POLISH
+=================================================
+
+Improve user experience.
+
+Add:
+- Scroll To Top Button
+- Smooth Page Transitions
+- Hover Animations
+- Fade In Animations
+- Empty States
+- Better Error States
+- Toast Notifications
+- Success Alerts
+- Improved Mobile Navigation
+
+=================================================
+PHASE 7: PERFORMANCE & CLEANUP
+=================================================
+
+Optimize the application.
+
+Requirements:
+- Remove duplicate code
+- Reuse components
+- Improve folder structure
+- Lazy-load pages
+- Optimize images
+- Improve responsiveness
+- Improve accessibility
+- Add comments where necessary
+
+=================================================
+FINAL REQUIREMENT
+=================================================
+
+Before making changes:
+1. Analyze the current project structure.
+2. Identify existing components.
+3. Reuse existing files whenever possible.
+4. Avoid creating duplicate components.
+5. Maintain consistency across the entire Novella application.
+
+Deliver a polished, production-style bookstore application suitable for a final-year university project presentation.
