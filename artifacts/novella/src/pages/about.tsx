@@ -1,7 +1,5 @@
 import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
-import { PageSkeleton } from "@/components/ui/skeleton-loader";
-
 export default function About() {
   const [loading, setLoading] = useState(true);
 
@@ -48,10 +46,44 @@ export default function About() {
             <div className="bg-card p-6 rounded-lg border border-border text-center">
               <div className="text-3xl font-bold text-primary mb-2">10,000+</div>
               <div className="text-sm font-medium">Happy Readers</div>
-            </div>
+                  </div>          </div>
+        </div>
+      </div>
+      <div className="container mx-auto px-4 py-16">
+        <h2 className="font-serif text-3xl font-bold text-center mb-12">
+          Meet Our Team
+        </h2>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="bg-card p-6 rounded-lg border border-border text-center">
+            <h3 className="text-xl font-semibold mb-2">
+              Hodhan Abdullahi
+            </h3>
+            <p className="text-muted-foreground">Project Manager</p>
+          </div>
+
+          <div className="bg-card p-6 rounded-lg border border-border text-center">
+            <h3 className="text-xl font-semibold mb-2">
+              Anisa Abdullahi
+            </h3>
+            <p className="text-muted-foreground">Frontend Developer</p>
+          </div>
+
+          <div className="bg-card p-6 rounded-lg border border-border text-center">
+            <h3 className="text-xl font-semibold mb-2">
+              George Laurenco
+            </h3>
+            <p className="text-muted-foreground">Backend Developer</p>
+          </div>
+
+          <div className="bg-card p-6 rounded-lg border border-border text-center">
+            <h3 className="text-xl font-semibold mb-2">
+              Alan keli
+            </h3>
+            <p className="text-muted-foreground">UI/UX Designer</p>
           </div>
         </div>
       </div>
-    </motion.div>
+    </motion.div>   
   );
 }
